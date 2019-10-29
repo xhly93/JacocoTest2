@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="第一个页面"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/test001"
+        android:onClick="doclick"
+        android:text="点击11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/test002"
+
+        android:onClick="doclick"
+        android:text="点击12"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/test003"
+        android:onClick="doclick"
+        android:text="点击13"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <Button
+        android:id="@+id/test005"
+        android:onClick="doclick"
+        android:text="跳转"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/test006"
+        android:onClick="doclick"
+        android:text="生成报告"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/test007"
+        android:onClick="doclick"
+        android:text="清空报告"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+</LinearLayout>
